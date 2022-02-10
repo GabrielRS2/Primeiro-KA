@@ -1,0 +1,17 @@
+.main-menu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+ .main-menu li a {
+    padding: 26px 7px;
+    color: #000;
+    display: inline-block;
+  }
+  .main-menu li nav {
+    display: none;
+    position: absolute; /* => nova linha adicionada */
+  }
+  .main-menu li:nth-child(2):hover nav {
+    display: block;
+  }
